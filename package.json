@@ -1,0 +1,13 @@
+{
+  "name": "waid-icp3-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static clone of https://lp.waid.io/icp3-cb/",
+  "scripts": {
+    "build": "node scripts/validate-static.mjs",
+    "extract": "playwright test scripts/extract-site.spec.js --reporter=line"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}

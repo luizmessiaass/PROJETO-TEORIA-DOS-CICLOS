@@ -1,8 +1,8 @@
 {
-  "name": "waid-icp3-clone",
+  "name": "teoria-dos-ciclos",
   "version": "1.0.0",
   "private": true,
-  "description": "Static clone of https://lp.waid.io/icp3-cb/",
+  "description": "Landing page Teoria dos Ciclos - Relatórios Semanais.",
   "scripts": {
     "build": "node scripts/validate-static.mjs && node scripts/build-static.mjs",
     "extract": "playwright test scripts/extract-site.spec.js --reporter=line"
